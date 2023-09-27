@@ -1,5 +1,5 @@
 import { app } from './app';
-require('dontenv').config();
+require('dotenv').config();
 
 // create server
 app.listen(process.env.PORT, () => {
